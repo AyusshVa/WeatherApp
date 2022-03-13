@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/random/1600x900');
+
+}
+
+.card{
+    background-color: #000000e6;
+    color: white;
+    max-width: 20rem;
+    width: 100%;
+    margin: 5%;
+    padding: 4%;
+    border-radius: 2em;
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.search {
+    display: fel;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.wind{
+    margin-left: 11px;
+}
+
+input.search-bar {
+    margin: 0 1em;
+    color: white;
+    width: 80%;
+    height: 2.28rem;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: #141E277d;
+    padding: 13px;
+    text-decoration: none;
+}
+
+button.btn {
+    height: 2.28rem;
+    background-color: #141E27;
+    color: white;
+    width: 2.28rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #789395;
+
+}
+
+.img-block {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.city {
+    font-size: 2.3rem;
+}
+
+h1.temp, .humidity {
+    margin: 6% 10px;
+}
