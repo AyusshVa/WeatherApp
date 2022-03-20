@@ -43,6 +43,8 @@ const iconUrl = "http://openweathermap.org/img/wn/"+icon+".png"
 document.querySelector('.icon').setAttribute('src', iconUrl);
 document.querySelector('.humidity').innerHTML = 'Humidity:' +humidity;
 document.querySelector('.wind').innerHTML = 'Wind speed: '+speed + 'Km/h';
+document.body.style.backgroundImage =
+      "url('https://source.unsplash.com/1600x900/?landscape/)";
 
  }
 
